@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a sintaxe correta para criar uma função em JavaScript?",
-      respostas: [
-        "function: myFunction()",
-        "function = myFunction()",
-        "function myFunction()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
-      respostas: [
-        "int",
-        "variable",
-        "var",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual método de array é usado para remover o último elemento?",
-      respostas: [
-        "pop()",
-        "removeLast()",
-        "deleteLast()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o operador de comparação estrita em JavaScript?",
-      respostas: [
-        "===",
-        "==",
-        "=",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-      respostas: [
-        "print()",
-        "console.log()",
-        "log()",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "append()",
-        "addToEnd()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o tipo de dados que representa um conjunto de valores verdadeiro ou falso?",
-      respostas: [
-        "boolean",
-        "string",
-        "number",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual função é usada para converter uma string em um número em JavaScript?",
-      respostas: [
-        "toInt()",
-        "parseInteger()",
-        "parseInt()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador lógico 'ou' em JavaScript?",
-      respostas: [
-        "&&",
-        "||",
-        "!",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para concatenar dois arrays em JavaScript?",
-      respostas: [
-        "join()",
-        "merge()",
-        "concat()",
-      ],
-      correta: 2
-    }
-  ];
+  {
+    pergunta: "Quando League of Legends foi oficialmente lançado?",
+    respostas: [
+      "2008",
+      "2009",
+      "2010",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual personagem é conhecido como o mascote de League of Legends?",
+    respostas: [
+      "Ashe",
+      "Teemo",
+      "Darius",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do continente onde a maioria das batalhas em League of Legends ocorrem?",
+    respostas: [
+      "Runeterra",
+      "Shurima",
+      "Noxus",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o primeiro campeão a ser lançado em League of Legends?",
+    respostas: [
+      "Ashe",
+      "Ryze",
+      "Annie",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quantas linhas existem em Summoner's Rift, o mapa principal de League of Legends?",
+    respostas: [
+      "2",
+      "3",
+      "4",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o título dado ao jogador que é reconhecido como o melhor do mundo em League of Legends?",
+    respostas: [
+      "Rei",
+      "Campeão Mundial",
+      "Invocador",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual foi o primeiro evento mundial de League of Legends?",
+    respostas: [
+      "Worlds",
+      "All-Star",
+      "Mid-Season Invitational",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome da organização que supervisiona a produção e o desenvolvimento de League of Legends?",
+    respostas: [
+      "Blizzard",
+      "Riot Games",
+      "Valve Corporation",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual foi o primeiro campeão a ser lançado com uma skin lendária?",
+    respostas: [
+      "Ashe",
+      "Annie",
+      "Tryndamere",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é considerado o criador de League of Legends?",
+    respostas: [
+      "Marc Merrill",
+      "Steve Jobs",
+      "Bill Gates",
+    ],
+    correta: 0
+  }
+];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
